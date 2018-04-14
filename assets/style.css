@@ -1,0 +1,113 @@
+body {
+    background-image: url(backgound-lightgray.jpg);
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*header styles*/
+/*
+header {
+    background-color: #ffffff;
+    height: 85px;
+    border-bottom: solid #dddddd;
+    margin-bottom: 45px;
+    clear: both;
+}
+
+*/
+/*
+/*styling nav with float and fuction*/
+/*
+.navLinks {
+    float: right;
+}*/
+
+/*.navLinks>a {
+    padding-right: 5px;
+    margin-top: 8px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #dddddd;
+    text-decoration: none;
+    margin: 3px;
+}
+
+*/
+/*
+.borderRight {
+    border-right: 2px solid #dddddd;
+}
+
+*/
+/*
+a:hover {
+    background-color: #86ccc8;
+}
+
+*/
+
+/*styling just my name block*/
+
+/*
+.myName {
+    margin-left: 150px;
+    width: 300px;
+    margin-top: auto;
+    height: 55px;
+    padding: 15px 30px;
+    background-color: #4aaaa5;
+    color: #666666;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 1.5;
+} */
+
+/*Container styles*/
+/*
+.container {
+    background-color: #ffffff;
+    width: 850px;
+    margin-left: 150px;
+    margin-right: 0 auto;
+    margin-bottom: 0 auto;
+    border: solid #dddddd;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+*/
+
+
+
+/*Styles for my headshot 200 by 200*/
+
+.myPhoto {
+    height: 200px;
+    width: 200px;
+    float: left;
+    overflow: auto;
+    margin-right: 5px;
+    margin-left: 26;
+}
+/*
+.aboutMe {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin-left: 26px;
+    border-bottom: 2px solid lightgray;
+}
+
+*/
+/*
+footer>div {
+    width: 100%;
+    position: absolute;
+    left: 0 auto;
+    bottom: 0 auto;
+    top: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 44px;
+    border-top: solid #4aaaa5 9px;
+}
+
+*/
