@@ -9,7 +9,7 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">-->
 
-        <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -33,7 +33,10 @@
             padding-left: 15px;
         }
 
-        
+        .btn {
+            background-color: #4aaaa5;
+            color: white;
+        }
     </style>
 
 </head>
@@ -46,7 +49,7 @@
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="portfolio.html">Portfolio</a>
@@ -63,35 +66,33 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <div>
-                    <h3 class="aboutMe">About me</h3>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <img class="myHeadshot" src="assets/headshot.png" alt="My image">
-                </div>
-                <div id="paragraph" class="col-md-9">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum aut debitis itaque corporis rerum, harum
-                        laudantium cupiditate libero nihil voluptas dignissimos accusamus aliquam in officia unde provident,
-                        hic quibusdam reprehenderit modi fuga fugit officiis ad facilis. Harum quidem atque amet hic unde
-                        magni magnam quibusdam dolores perspiciatis, animi sint Lorem.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum aut debitis itaque corporis rerum,
-                            harum laudantium cupiditate libero nihil voluptas dignissimos accusamus aliquam in officia unde
-                            provident, hic quibusdam reprehenderit modi fuga fugit officiis ad facilis. Harum quidem atque
-                            amet hic unde magni magnam quibusdam dolores perspiciatis, animi sint Lorem ipsum dolor sit.
-                        </p>
-
+            <section id="contact">
+             
+                  
+                    <div class="row">
+            
+                        <div class="col-md-12">
+                            <h4 style="color: #4aaaa5;">
+                                <strong>Contact</strong>
+                            </h4>
+                            <form>
+                                <div class="form-group">Name
+                                    <input type="text" class="form-control" name="" value="" placeholder="">
+                                </div>
+                                <div class="form-group">Email
+                                    <input type="email" class="form-control" name="" value="" placeholder="">
+                                </div>
+                                <div class="form-group">Message
+                                    <textarea class="form-control" name="" rows="3" placeholder=""></textarea>
+                                </div>
+                                <button class="btn btn-default" type="submit" name="button">
+                                     Submit
+                                </button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-     
-
+                
+            </section>
         </div>
     </div>
 
