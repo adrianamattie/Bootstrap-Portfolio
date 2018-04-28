@@ -2,10 +2,42 @@ body {
     background-image: url(backgound-lightgray.jpg);
     margin: 0px;
     padding: 0px;
-    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-right {
+    color: gray;
+    text-decoration: none;
+    padding-right: 26px;
+    margin-top: 10px;
+}
+
+.navbar-fixed-bottom {
+    background-color: #666666;
+    border-top: solid #4aaaa5 9px;
+    text-align: center;
+    line-height: 40px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: rgb(202, 202, 202);
+}
+
+.headerLinks {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+/* I did this because I used a fixed position for my header*/
+.jumbotron {
+    margin-top: 120px
 }
 
 /*header styles*/
+
 /*
 header {
     background-color: #ffffff;
@@ -16,8 +48,10 @@ header {
 }
 
 */
+
 /*
 /*styling nav with float and fuction*/
+
 /*
 .navLinks {
     float: right;
@@ -33,12 +67,14 @@ header {
 }
 
 */
+
 /*
 .borderRight {
     border-right: 2px solid #dddddd;
 }
 
 */
+
 /*
 a:hover {
     background-color: #86ccc8;
@@ -62,6 +98,7 @@ a:hover {
 } */
 
 /*Container styles*/
+
 /*
 .container {
     background-color: #ffffff;
@@ -76,8 +113,6 @@ a:hover {
 
 */
 
-
-
 /*Styles for my headshot 200 by 200*/
 
 .myPhoto {
@@ -88,6 +123,7 @@ a:hover {
     margin-right: 5px;
     margin-left: 26;
 }
+
 /*
 .aboutMe {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -97,6 +133,7 @@ a:hover {
 }
 
 */
+
 /*
 footer>div {
     width: 100%;
